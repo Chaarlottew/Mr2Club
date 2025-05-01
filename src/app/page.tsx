@@ -61,7 +61,7 @@ export default function Home() {
                   Contact Us
                 </h2>
                 <p className="text-white text-3xl mt-4 font-light">
-                  We'd love to hear from you.
+                  We&apos;d love to hear from you.
                 </p>
                 <div className="w-1/5 h-[2px] bg-white"></div>
               </div>
