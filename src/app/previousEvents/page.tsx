@@ -27,7 +27,7 @@ export default function Events() {
             [OF NEW SOUTH WALES]
           </div>
         </div>
-        
+
         {/* Previous Events List */}
         <div className="flex w-full h-[1200px] bg-black px-10 gap-10 py-10 border-t border-white ">
           {/* Event 1 */}
@@ -56,7 +56,7 @@ export default function Events() {
           >
             <div className="w-full h-full relative transition-transform duration-300 group-hover:scale-105 group-hover:brightness-90">
               <Image
-                src="/images/prev3.jpg"
+                src="/images/prev2.jpg"
                 alt="2nd July 2023 - Sydney Olympic Park"
                 fill
                 className="object-cover"
