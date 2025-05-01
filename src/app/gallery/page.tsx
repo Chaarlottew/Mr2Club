@@ -110,7 +110,7 @@ const GalleryPage = () => {
               key={index}
               className="w-full h-150 overflow-hidden rounded-xl"
             >
-              <img
+              <Image
                 src={src}
                 alt={`Gallery ${index}`}
                 className="w-full h-full object-cover"
