@@ -14,7 +14,7 @@ export default function Events() {
         {/* Main Image */}
         <div className="relative top-0 h-[90vh] w-full z-0">
           <Image
-            src="/images/event1.jpg"
+            src="/images/event1.JPG"
             alt="Main Page Image"
             fill
             className="object-cover w-full h-full"
@@ -28,7 +28,6 @@ export default function Events() {
           </div>
         </div>
 
-       
         {/* Upcoming Events */}
         <div className="flex w-full h-[1200px] bg-black px-10 gap-10 py-10 border-y-1 border-white ">
           {/* Event 1 */}
@@ -57,7 +56,7 @@ export default function Events() {
           >
             <div className="w-full h-full relative transition-transform duration-300 group-hover:scale-105 group-hover:brightness-90">
               <Image
-                src="/images/event3.jpg"
+                src="/images/event3.JPG"
                 alt="19th April 2025 - Toyota Nationals"
                 fill
                 className="object-cover"

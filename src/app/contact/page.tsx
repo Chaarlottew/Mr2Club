@@ -13,7 +13,7 @@ export default function Contact() {
         {/* Main Image */}
         <div className="relative top-0 h-[90vh] w-full z-0">
           <Image
-            src="/images/10.jpg"
+            src="/images/10.JPG"
             alt="Main Page Image"
             fill
             className="object-cover w-full h-full"

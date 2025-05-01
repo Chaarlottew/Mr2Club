@@ -11,8 +11,8 @@ export default function Home() {
   }
   const myPanels = [
     { src: "/images/carousel1.jpg", label: "New Events", href: "/events" },
-    { src: "/images/carousel2.jpg", label: "About Us", href: "/about" },
-    { src: "/images/carousel3.jpg", label: "Gallery", href: "/gallery" },
+    { src: "/images/carousel2.JPG", label: "About Us", href: "/about" },
+    { src: "/images/carousel3.JPG", label: "Gallery", href: "/gallery" },
   ];
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -46,7 +46,7 @@ export default function Home() {
         {/* Next Background Image */}
         <div className="relative w-full h-[250vh]">
           <Image
-            src="/images/mainpage2.jpg"
+            src="/images/mainpage2.JPG"
             alt="Main Page Image 2"
             fill
             className="object-cover w-full h-full"

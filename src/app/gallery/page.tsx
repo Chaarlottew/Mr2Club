@@ -8,41 +8,41 @@ import Image from "next/image";
 const imageList = [
   "/images/aboutus.png",
   "/images/aboutus2.png",
-  "/images/carousel3.jpg",
+  "/images/carousel3.JPG",
   "/images/camswharf2.jpg", //vertical
 
-  "/images/event1.jpg", //hortizontal
-  "/images/camswharf.jpg", // horitzontal
+  "/images/event1.JPG", //hortizontal
+  "/images/camswharf.JPG", // horitzontal
   "/images/carousel1.jpg", //vertical
-  "/images/carousel2.jpg", //vertical
-  "/images/carousel3.jpg", //vertical
-  "/images/event3.jpg", //vertical
+  "/images/carousel2.JPG", //vertical
+  "/images/carousel3.JPG", //vertical
+  "/images/event3.JPG", //vertical
   "/images/event22.png", //vertical
   "/images/mainpage.jpg", //vertical
-  "/images/mainpage2.jpg", //vertical
-  "/images/nasho1.jpg", //vertical
-  "/images/nasho2.jpg", //vertical
-  "/images/prev1.jpg", //vertical
-  "/images/prev2.jpg", //vertical
-  "/images/prev4.jpg", //vertical
-  "/images/prev5.jpg", //vertical
-  "/images/sop2.jpg", //vertical
+  "/images/mainpage2.JPG", //vertical
+  "/images/nasho1.JPG", //vertical
+  "/images/nasho2.JPG", //vertical
+  "/images/prev1.JPG", //vertical
+  "/images/prev2.JPG", //vertical
+  "/images/prev4.JPG", //vertical
+  "/images/prev5.JPG", //vertical
+  "/images/sop2.JPG", //vertical
   "/images/sop11.png", //vertical
   "/images/sop12.png", //vertical
-  "/images/sop21.jpg", //vertical
-  "/images/waterfall1.jpg", //vertical
+  "/images/sop21.JPG", //vertical
+  "/images/waterfall1.JPG", //vertical
   "/images/waterfall2.png", //vertical
-  "/images/1.jpg",
-  "/images/3.jpg",
-  "/images/4.jpg",
-  "/images/5.jpg",
-  "/images/6.jpg",
-  "/images/7.jpg",
-  "/images/8.jpg",
-  "/images/9.jpg",
-  "/images/10.jpg",
-  "/images/11.jpg",
-  "/images/12.jpg",
+  "/images/1.JPG",
+  "/images/3.JPG",
+  "/images/4.JPG",
+  "/images/5.JPG",
+  "/images/6.JPG",
+  "/images/7.JPG",
+  "/images/8.JPG",
+  "/images/9.JPG",
+  "/images/10.JPG",
+  "/images/11.JPG",
+  "/images/12.JPG",
 ];
 
 const IMAGES_PER_LOAD = 20;

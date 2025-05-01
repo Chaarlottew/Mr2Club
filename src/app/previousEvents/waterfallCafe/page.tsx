@@ -6,7 +6,7 @@ export default function WaterfallPage() {
       date="2024-05-19"
       title="Waterfall Cafe and Cruise"
       location="Waterfall Cafe"
-      heroImage="/images/waterfall1.jpg"
+      heroImage="/images/waterfall1.JPG"
       contentImage="/images/waterfall2.png"
       description="Meetup at Rofe Park and Cruise to Waterfall Cafe"
     />

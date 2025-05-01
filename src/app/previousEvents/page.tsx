@@ -37,7 +37,7 @@ export default function Events() {
           >
             <div className="relative w-full h-full transition-transform duration-300 group-hover:scale-105 group-hover:brightness-90">
               <Image
-                src="/images/prev2.jpg"
+                src="/images/prev2.JPG"
                 alt="19th May 2024 - Waterfall Cafe"
                 fill
                 className="object-cover"
@@ -56,7 +56,7 @@ export default function Events() {
           >
             <div className="w-full h-full relative transition-transform duration-300 group-hover:scale-105 group-hover:brightness-90">
               <Image
-                src="/images/prev2.jpg"
+                src="/images/prev2.JPG"
                 alt="2nd July 2023 - Sydney Olympic Park"
                 fill
                 className="object-cover"
@@ -76,7 +76,7 @@ export default function Events() {
           >
             <div className="relative w-full h-full transition-transform duration-300 group-hover:scale-105 group-hover:brightness-90">
               <Image
-                src="/images/prev4.jpg"
+                src="/images/prev4.JPG"
                 alt="22nd April 2023 - Royal National Park"
                 fill
                 className="object-cover"
@@ -95,7 +95,7 @@ export default function Events() {
           >
             <div className="w-full h-full relative transition-transform duration-300 group-hover:scale-105 group-hover:brightness-90">
               <Image
-                src="/images/prev5.jpg"
+                src="/images/prev5.JPG"
                 alt="21st January 2023"
                 fill
                 className="object-cover"
