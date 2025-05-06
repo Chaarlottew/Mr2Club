@@ -29,10 +29,10 @@ export default function Home() {
             className="object-cover w-full h-full"
           />
           {/* Text on top of the image */}
-          <div className="absolute top-[25%] left-0 right-0 text-center text-white font-[Abhaya Libre] text-[100px] font-bold">
+          <div className="absolute top-[25%] left-0 right-0 text-center text-white font-[Abhaya Libre] text-[80px] font-bold">
             MR2 OWNERS CLUB
           </div>
-          <div className="absolute top-[40%] left-0 right-0 text-center text-white font-[Abhaya Libre] text-[50px] font-bold">
+          <div className="absolute top-[40%] left-0 right-0 text-center text-white font-[Abhaya Libre] text-[30px] font-bold">
             [OF NEW SOUTH WALES]
           </div>
         </div>
