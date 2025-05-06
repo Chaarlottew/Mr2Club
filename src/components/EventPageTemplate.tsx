@@ -71,14 +71,14 @@ export default function EventPageTemplate({
             className="object-cover w-full h-full"
           />
           {/* Date of event */}
-          <div className="absolute bottom-[10%] right-10 text-center text-white font-[Abhaya Libre] text-[100px] font-bold">
+          <div className="absolute bottom-[10%] right-10 text-center text-white font-[Abhaya Libre] text-[80px] font-bold">
             {new Date(date).toLocaleDateString("en-AU", {
               day: "numeric",
               month: "long",
               year: "numeric",
             })}
           </div>
-          <div className="absolute bottom-[5%] right-10 text-center text-white font-[Abhaya Libre] text-[50px] font-bold">
+          <div className="absolute bottom-[5%] right-10 text-center text-white font-[Abhaya Libre] text-[30px] font-bold">
             [{location.toUpperCase()}]
           </div>
         </div>
@@ -97,21 +97,21 @@ export default function EventPageTemplate({
           {/* Right: Text */}
           <div className="w-full text-white flex flex-col p-10 space-y-6">
             {isUpcoming && (
-              <div className="text-[80px] font-extrabold uppercase tracking-wide text-center leading-tight animate-pulse [text-shadow:_2px_2px_0_#000,_-2px_-2px_0_#000]">
+              <div className="text-[60px] font-extrabold uppercase tracking-wide text-center leading-tight animate-pulse [text-shadow:_2px_2px_0_#000,_-2px_-2px_0_#000]">
                 {daysLeft} DAYS TILL THE EVENT
               </div>
             )}
             <div className="bg-black text-white p-10 rounded-2xl shadow-2xl space-y-10">
-              <h2 className="text-6xl font-extrabold text-center uppercase tracking-wider">
+              <h2 className="text-5xl font-extrabold text-center uppercase tracking-wider">
                 {title}
               </h2>
-              <p className="text-3xl text-center font-light">{description}</p>
+              <p className="text-2xl text-center font-light">{description}</p>
 
               {isUpcoming && (
-                <div className="space-y-8 text-4xl">
+                <div className="space-y-8 text-3xl">
                   {meetupLocation && (
                     <div>
-                      <p className="font-semibold text-5xl">
+                      <p className="font-semibold text-4xl">
                         📍 Meetup Location:
                       </p>
                       {meetupLink ? (
@@ -130,14 +130,14 @@ export default function EventPageTemplate({
 
                   {meetupTime && (
                     <div>
-                      <p className="font-semibold text-5xl">🕙 Time:</p>
+                      <p className="font-semibold text-4xl">🕙 Time:</p>
                       <p className="pl-14">{meetupTime}</p>
                     </div>
                   )}
 
                   {departureTime && (
                     <div>
-                      <p className="font-semibold text-5xl">
+                      <p className="font-semibold text-4xl">
                         🛻 Departure Time:
                       </p>
                       <p className="pl-14">{departureTime}</p>
@@ -146,7 +146,7 @@ export default function EventPageTemplate({
 
                   {arrivalTime && (
                     <div>
-                      <p className="font-semibold text-5xl">
+                      <p className="font-semibold text-4xl">
                         🍽️ Arrival at Destination:
                       </p>
                       <p className="pl-14">{arrivalTime}</p>
@@ -155,7 +155,7 @@ export default function EventPageTemplate({
 
                   {lunchTime && (
                     <div>
-                      <p className="font-semibold text-5xl">🍴 Lunch Time:</p>
+                      <p className="font-semibold text-4xl">🍴 Lunch Time:</p>
                       <p className="pl-14">{lunchTime}</p>
                       {tavernLink && (
                         <a
@@ -172,12 +172,12 @@ export default function EventPageTemplate({
               )}
 
               {details && isUpcoming && (
-                <div className="pt-6 text-4xl space-y-4">{details}</div>
+                <div className="pt-6 text-3xl space-y-4">{details}</div>
               )}
 
               {facebookLink && isUpcoming && (
-                <div className="pt-6 text-4xl">
-                  <h3 className="font-semibold text-5xl">📢 Facebook Event</h3>
+                <div className="pt-6 text-3xl">
+                  <h3 className="font-semibold text-4xl">📢 Facebook Event</h3>
                   <p className="pl-14">
                     For more details and to RSVP, visit our&nbsp;
                     <a
@@ -192,7 +192,7 @@ export default function EventPageTemplate({
                 </div>
               )}
               {!isUpcoming && (
-                <div className="pt-6 text-3xl">
+                <div className="pt-6 text-2xl">
                   <p className="pl-31">This event has already occured</p>
                 </div>
               )}

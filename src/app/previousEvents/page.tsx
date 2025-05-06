@@ -20,10 +20,10 @@ export default function Events() {
             className="object-cover w-full h-full"
           />
           {/* Text on top of the image */}
-          <div className="absolute bottom-[10%] right-10 text-center text-white font-[Abhaya Libre] text-[100px] font-bold">
+          <div className="absolute bottom-[10%] right-10 text-center text-white font-[Abhaya Libre] text-[80px] font-bold">
             PREVIOUS EVENTS
           </div>
-          <div className="absolute bottom-[5%] right-10 text-center text-white font-[Abhaya Libre] text-[50px] font-bold">
+          <div className="absolute bottom-[5%] right-10 text-center text-white font-[Abhaya Libre] text-[30px] font-bold">
             [OF NEW SOUTH WALES]
           </div>
         </div>
@@ -42,9 +42,9 @@ export default function Events() {
                 fill
                 className="object-cover"
               />
-              <div className="absolute top-6 left-6  text-white text-[70px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] ">
+              <div className="absolute top-6 left-6  text-white text-[50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] ">
                 <h2 className=" ">19th May 2024</h2>
-                <p className="text-[50px]">[WATERFALL CAFE]</p>
+                <p className="text-[30px]">[WATERFALL CAFE]</p>
               </div>
             </div>
           </Link>
@@ -62,9 +62,9 @@ export default function Events() {
                 className="object-cover"
               />
             </div>
-            <div className="absolute top-6 right-6 text-white text-[70px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] flex flex-col items-end">
-              <h2 className="text-[70px]">2nd July 2023</h2>
-              <p className="text-[50px]">[SYDNEY OLYMPIC PARK]</p>
+            <div className="absolute top-6 right-6 text-white text-[50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] flex flex-col items-end">
+              <h2 className="text-50px]">2nd July 2023</h2>
+              <p className="text-[30px]">[SYDNEY OLYMPIC PARK]</p>
             </div>
           </Link>
         </div>
@@ -81,9 +81,9 @@ export default function Events() {
                 fill
                 className="object-cover"
               />
-              <div className="absolute top-6 left-6  text-white text-[70px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] ">
+              <div className="absolute top-6 left-6  text-white text-[50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] ">
                 <h2 className=" ">22nd April 2023</h2>
-                <p className="text-[50px]">[ROYAL NATIONAL PARK]</p>
+                <p className="text-[30px]">[ROYAL NATIONAL PARK]</p>
               </div>
             </div>
           </Link>
@@ -101,9 +101,9 @@ export default function Events() {
                 className="object-cover"
               />
             </div>
-            <div className="absolute top-6 right-6 text-white text-[70px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] flex flex-col items-end">
-              <h2 className="text-[70px]">21st January 2023</h2>
-              <p className="text-[50px]">[SYDNEY OLYMPIC PARK]</p>
+            <div className="absolute top-6 right-6 text-white text-[50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] flex flex-col items-end">
+              <h2 className="text-[50px]">21st January 2023</h2>
+              <p className="text-[30px]">[SYDNEY OLYMPIC PARK]</p>
             </div>
           </Link>
         </div>

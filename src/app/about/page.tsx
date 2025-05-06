@@ -15,13 +15,13 @@ export default function About() {
       </div>
 
       {/* Text on top of the image */}
-      <div className="absolute top-[22%] left-0 right-0 text-center text-white font-[Abhaya Libre] text-[100px] font-bold">
+      <div className="absolute top-[22%] left-0 right-0 text-center text-white font-[Abhaya Libre] text-[80px] font-bold">
         MR2 OWNERS CLUB
       </div>
-      <div className="absolute top-[37%] left-0 right-0 text-center text-white font-[Abhaya Libre] text-[50px] font-bold">
+      <div className="absolute top-[37%] left-0 right-0 text-center text-white font-[Abhaya Libre] text-[30px] font-bold">
         [OF NEW SOUTH WALES]
       </div>
-      <div className="absolute top-[45%] left-0 right-0 text-center text-white font-[Abhaya Libre] text-[50px] font-bold">
+      <div className="absolute top-[45%] left-0 right-0 text-center text-white font-[Abhaya Libre] text-[30px] font-bold">
         [ABOUT US COMING SOON]
       </div>
     </div>

@@ -20,10 +20,10 @@ export default function Events() {
             className="object-cover w-full h-full"
           />
           {/* Text on top of the image */}
-          <div className="absolute bottom-[10%] right-60 text-center text-white font-[Abhaya Libre] text-[100px] font-bold">
+          <div className="absolute bottom-[10%] right-60 text-center text-white font-[Abhaya Libre] text-[80px] font-bold">
             EVENTS
           </div>
-          <div className="absolute bottom-[5%] right-10 text-center text-white font-[Abhaya Libre] text-[50px] font-bold">
+          <div className="absolute bottom-[5%] right-10 text-center text-white font-[Abhaya Libre] text-[30px] font-bold">
             [OF NEW SOUTH WALES]
           </div>
         </div>
@@ -42,9 +42,9 @@ export default function Events() {
                 fill
                 className="object-cover"
               />
-              <div className="absolute top-6 left-6  text-white text-[70px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] ">
+              <div className="absolute top-6 left-6  text-white text-[50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] ">
                 <h2 className=" ">18th May 2025</h2>
-                <p className="text-[50px]">[CAMS WHARF]</p>
+                <p className="text-[30px]">[CAMS WHARF]</p>
               </div>
             </div>
           </Link>
@@ -62,9 +62,9 @@ export default function Events() {
                 className="object-cover"
               />
             </div>
-            <div className="absolute top-6 right-6 text-white text-[70px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000]">
+            <div className="absolute top-6 right-6 text-50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000]">
               <h2>19th April 2025</h2>
-              <p className="text-[50px]">[TOYOTA NATIONALS]</p>
+              <p className="text-[30px]">[TOYOTA NATIONALS]</p>
             </div>
           </Link>
         </div>

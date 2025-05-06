@@ -31,7 +31,7 @@ export default function Carousel({ panels }: CarouselProps) {
           </div>
 
           {/* Label */}
-          <div className="absolute bottom-0 right-5 text-white text-[70px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000]">
+          <div className="absolute bottom-0 right-5 text-white text-[50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000]">
             {panel.label}
           </div>
         </Link>

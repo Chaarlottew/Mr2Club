@@ -57,10 +57,10 @@ export default function Home() {
             <Link href="/contact">
               <div className="flex flex-col items-center gap-4">
                 <div className="w-1/5 h-[1px] bg-white"></div>
-                <h2 className="text-white font-[Abhaya Libre] text-[100px] font-bold transition-transform duration-300 hover:scale-105 hover:-translate-y-2  ">
+                <h2 className="text-white font-[Abhaya Libre] text-[80px] font-bold transition-transform duration-300 hover:scale-105 hover:-translate-y-2  ">
                   Contact Us
                 </h2>
-                <p className="text-white text-3xl mt-4 font-light">
+                <p className="text-white text-2xl mt-4 font-light">
                   We&apos;d love to hear from you.
                 </p>
                 <div className="w-1/5 h-[2px] bg-white"></div>

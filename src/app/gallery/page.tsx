@@ -88,10 +88,10 @@ const GalleryPage = () => {
           fill
           className="object-cover w-full h-full"
         />
-        <div className="absolute bottom-[10%] left-10 text-white font-[Abhaya Libre] text-[100px] font-bold">
+        <div className="absolute bottom-[10%] left-10 text-white font-[Abhaya Libre] text-[80px] font-bold">
           GALLERY
         </div>
-        <div className="absolute bottom-[5%] left-10 text-white font-[Abhaya Libre] text-[50px] font-bold">
+        <div className="absolute bottom-[5%] left-10 text-white font-[Abhaya Libre] text-[30px] font-bold">
           [OF NEW SOUTH WALES]
         </div>
       </div>
