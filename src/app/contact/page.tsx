@@ -56,7 +56,7 @@ export default function Contact() {
                 INSTAGRAM
               </div>
             </div>
-            <p className="text-[10px] text-white opacity-80">@mr2_nsw</p>
+            <p className="text-[20px] text-white opacity-80">@mr2_nsw</p>
           </a>
 
           {/* Facebook */}
@@ -80,7 +80,7 @@ export default function Contact() {
                 FACEBOOK
               </div>
             </div>
-            <p className="text-[10px] text-white opacity-80">
+            <p className="text-[20px] text-white opacity-80">
               MR2 Owners Club Of Australia - NSW Branch
             </p>
           </a>

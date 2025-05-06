@@ -63,7 +63,7 @@ export default function Events() {
               />
             </div>
             <div className="absolute top-6 right-6 text-50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000]">
-              <h2>19th April 2025</h2>
+              <h2 className="right-0">19th April 2025</h2>
               <p className="text-[30px]">[TOYOTA NATIONALS]</p>
             </div>
           </Link>

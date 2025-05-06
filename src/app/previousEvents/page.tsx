@@ -56,7 +56,7 @@ export default function Events() {
           >
             <div className="w-full h-full relative transition-transform duration-300 group-hover:scale-105 group-hover:brightness-90">
               <Image
-                src="/images/prev2.JPG"
+                src="/images/event3.JPG"
                 alt="2nd July 2023 - Sydney Olympic Park"
                 fill
                 className="object-cover"
