@@ -83,7 +83,7 @@ const GalleryPage = () => {
       {/* Hero Section */}
       <div className="relative top-0 h-[90vh] w-full z-0">
         <Image
-          src="/images/gallery.jpg"
+          src="/images/gallery.JPG"
           alt="Main Page Image"
           fill
           className="object-cover w-full h-full"
