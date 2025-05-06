@@ -53,7 +53,7 @@ export default function Home() {
           />
 
           {/* Contact Us Text */}
-          <div className="absolute top-[30%] left-0 right-0 text-center z-10 overflow-hidden">
+          <div className="relative pt-[30vh] text-center z-10">
             <Link href="/contact">
               <div className="flex flex-col items-center gap-4">
                 <div className="w-1/5 h-[1px] bg-white"></div>
