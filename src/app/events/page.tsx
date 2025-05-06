@@ -43,7 +43,7 @@ export default function Events() {
                 className="object-cover"
               />
               <div className="absolute top-6 left-6  text-white text-[50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000] ">
-                <h2 className=" ">18th May 2025</h2>
+                <h2>18th May 2025</h2>
                 <p className="text-[30px]">[CAMS WHARF]</p>
               </div>
             </div>
@@ -62,8 +62,8 @@ export default function Events() {
                 className="object-cover"
               />
             </div>
-            <div className="absolute top-6 right-6 text-50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000]">
-              <h2 className=" ">19th April 2025</h2>
+            <div className="absolute top-6 right-6 text-[50px] font-bold [text-shadow:_1px_1px_0_#000,_-1px_-1px_0_#000]">
+              <h2>19th April 2025</h2>
               <p className="text-[30px]">[TOYOTA NATIONALS]</p>
             </div>
           </Link>
